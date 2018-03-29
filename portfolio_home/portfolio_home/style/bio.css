@@ -1,0 +1,148 @@
+html {
+	background-color: #ffffff;
+	font-size: 100%;
+}
+h1 {
+	font-family: 'Megrim', cursive;
+	color: #EC5D5D;
+	width: 25%;
+	line-height: 1;
+    letter-spacing: .3em;
+	font-size: 40pt;
+}
+
+h2 {
+	font-family: 'Crimson Text', serif;
+	color: #000000;
+	text-decoration: underline
+}
+
+nav  {
+	font-family: 'Crimson Text', serif;
+    color: #EC5D5D;
+    font-size: 15pt;
+	line-height: 1.4;
+    width: auto;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    background-color:white;
+    padding: 1em;
+}
+
+article {
+	font-family: 'Crimson Text', serif;
+    font-size: 18pt;
+	line-height: 1.4;
+	color: #000000;
+    padding: auto;
+    height: auto;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+article div{
+    padding-top: 4.5em;
+}
+
+article div p{
+    line-height: .2em
+}
+
+aside{
+    font-family: 'Crimson Text', serif;
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    height: auto;
+    line-height: 1.8;
+    background-color: white;
+    padding-left: 10em;
+    margin-right: 0.5em;
+    margin-left: 1em;
+    
+}
+
+aside p{
+    text-decoration: underline
+}
+
+aside ul {
+    line-height: 1.4;
+    padding-left: 0;
+    list-style: none;
+}
+
+li.die{
+    margin-left: 3em;
+    list-style: circle;
+}
+
+
+li.space{
+    padding-top: 1em;
+}
+
+aside div{
+    padding-top: .5em;
+}
+
+figure{
+    float: left;
+    margin-left:;
+    margin-right: ;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#container {
+    background-color: white;
+    width: 90%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#container > header {grid-area: header;}
+#container > nav {grid-area: nav}
+#container > article {grid-area: article;}
+#container > aside {grid-area: aside;}
+#container > footer {grid-area: footer;}
+
+#container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header nav"
+        "article aside"
+        "footer footer"
+}
+
+a.mainNav:link {
+	color: #EC5D5D;
+    text-decoration: none;
+}
+a:visited {
+	color: #EC5D5D;
+}
+a:hover {
+	color: #FF00FF;
+}
+a:active {
+	color: #EC5D5D;
+}

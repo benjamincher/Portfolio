@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Benjamin Cher</title>
+	<meta content="Hi I&apos;m Ben" name="description">
+	<meta content="Benjamin Cher" name="author">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link href="style/works.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Megrim|Text+Me+One" rel="stylesheet">
+</head>
+<body>
+	<div id="container">    
+        <header>
+			<h1>Benjamin Cher</h1>
+		</header>
+		<nav>
+			<ul>
+                <li><a href="index.html" class="mainNav">Home</a></li>
+				<li><a href="works.html" class="mainNav">Works</a></li>
+				<li><a href="bio.html" class="mainNav">Bio</a></li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+    <article>
+    <iframe src="https://player.vimeo.com/video/183214767" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <figure> 
+                <div class="slider">
+                    <div><img alt="Faceless white figure made of block lines" src="image/Photo2.png">
+                    </div>
+                    <div><img alt="Figures with faces made of a collage of others" src="image/Photo3.png"></div>
+                    <div><img alt="White figure with extra eyes" src="image/Photo4.png"></div>
+                    <div><img alt="Girl dissolving in black space" src="image/Photo5.png"></div>
+                </div>
+			</figure>
+        </article>
+        <aside>
+			<p>Filmography / Client List</p>
+			<ul>
+				<li><cite>Mia</cite> (Dir: Kristiana Gomez)</li>
+				<li><cite>Guo Guo</cite> (Dir: Wendy Zhang)</li>
+				<li><cite>Kindred</cite> (Dir: Will Park)</li>
+				<li><cite>Bad</cite> (Band: Before The Tempest)</li>
+				<li class=space>Hei Studios</li>
+					<ul>
+						<li class=die>Dir. Clare Chong</li>
+					</ul>
+
+				<li>Telescope Productions</li>
+					<ul>
+						<li class=die>Bacardi Legacy (Singapore)</li>
+						<li class=die>Acuvue Define (Singapore)</li>
+					</ul>
+            </ul>
+            <div>
+            <p>Expertise</p>
+            <ul>
+				<li>Premiere Pro</li>
+				<li >After Effects</li>
+				<li>Photoshop</li>
+				<li>Avid Media Composer</li>
+				<li>Media Composer</li>
+				<li>Final Cut X</li>
+            </ul>
+            </div>
+		</aside>
+    </div>
+    <script>
+            $(document).ready(function(){
+            $('.slider').bxSlider({
+                slideWidth: 1000,
+                mode: 'horizontal'
+            });
+            });
+        </script>
+    </body>
